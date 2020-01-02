@@ -3,4 +3,4 @@ from requests import get,post
 url = ''
 json = {}
 
-a = post(url = url, json = json).json
+post(url = url, json = json).json
